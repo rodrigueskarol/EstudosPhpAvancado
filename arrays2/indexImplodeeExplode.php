@@ -8,3 +8,7 @@ foreach ($array_nomes as $nomes) {
     echo "<p> Olá $nomes</p>";
 
 }
+
+$nomesJuntos = implode(", ", $array_nomes);
+
+echo $nomesJuntos;
