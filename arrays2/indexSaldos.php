@@ -13,12 +13,7 @@ foreach ($saldos as $saldo) {
     echo "<p>O saldo é $saldo</p>";
 }
 
-echo "<pre>";
-var_dump($saldos);
-
 sort($saldos);
 
-var_dump($saldos);
-echo "</pre>";
 
 echo "<p> O menor saldo é:$saldos[0]";
